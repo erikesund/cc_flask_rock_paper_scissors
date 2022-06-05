@@ -1,0 +1,29 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: chocolate;
+    color: beige;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+body article {
+    display: flex;
+    justify-content: center;
+}
+
+header > ul {
+    font-size: large;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: beige;
+    font-size: large;
+    padding: 5px;
+}

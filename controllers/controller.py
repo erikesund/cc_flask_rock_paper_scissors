@@ -24,4 +24,3 @@ def result(guess1, guess2):
     player_2.guess = guess2
     winning_player = determine_winner()
     return render_template("/game/results.html", winning_player=winning_player)
-   

@@ -24,4 +24,3 @@ def determine_winner():
         elif player_1.guess == "scissors" and player_2.guess == "rock":
             return player_2
         
-        
