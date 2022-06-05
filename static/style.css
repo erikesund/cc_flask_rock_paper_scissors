@@ -12,11 +12,6 @@ header {
     padding: 1rem;
 }
 
-body article {
-    display: flex;
-    justify-content: center;
-}
-
 header > ul {
     font-size: large;
 }
@@ -26,4 +21,8 @@ header > nav > ul > li > a {
     color: beige;
     font-size: large;
     padding: 5px;
+}
+
+article {
+    justify-content: center;
 }
